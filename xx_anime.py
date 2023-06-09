@@ -155,3 +155,6 @@ def time_shift(t, b = 1):
 K=1 # any factor
 xx_ani = anim.FuncAnimation(fig, time_shift, frames = len(x), fargs = (K,), interval = 15, blit = True)
 plt.show()
+
+## Saving animatiotn into a gif file
+xx_ani.save('/Users/thuanycostadelima/Desktop/xx_anime.gif')
